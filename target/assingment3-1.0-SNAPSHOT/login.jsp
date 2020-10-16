@@ -32,7 +32,7 @@
         }
     }
 </script>
-<form name="form" action="LoginServlet" method="post" onsubmit="return validate()">
+<form name="form" action="Servlets.LoginServlet" method="post" onsubmit="return validate()">
     Login :<input type="text" name="login"><br>
     Password :<input type="password" name="password"><br>
     <input type="submit" value="Login">
