@@ -4,7 +4,7 @@ public class User {
     String login;
     String email;
     String password;
-
+    // User class
     public User() {
 
     }

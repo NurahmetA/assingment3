@@ -1,27 +1,15 @@
 package Classes;
 
 public class Product {
-    int productId;
     String productName;
     int productPrice;
-    String category;
-
+    // Product class
     public Product() {
 
     }
-    public Product(int productId, String productName, int productPrice, String category) {
-        this.productId = productId;
+    public Product(String productName, int productPrice) {
         this.productName = productName;
         this.productPrice = productPrice;
-        this.category = category;
-    }
-
-    public int getProductId() {
-        return productId;
-    }
-
-    public void setProductId(int productId) {
-        this.productId = productId;
     }
 
     public String getProductName() {
@@ -40,11 +28,4 @@ public class Product {
         this.productPrice = productPrice;
     }
 
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }
 }

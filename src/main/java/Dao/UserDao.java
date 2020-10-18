@@ -5,7 +5,7 @@ import Classes.User;
 import java.sql.*;
 
 public class UserDao extends DaoClass {
-
+    //Registration code
     public void add(User user) throws SQLException, ClassNotFoundException {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
@@ -29,7 +29,7 @@ public class UserDao extends DaoClass {
 
     }
 
-
+    // Get login for validation
     public User getById(String login) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con = DriverManager.getConnection(url, username, dbpass);
